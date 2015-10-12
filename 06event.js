@@ -59,7 +59,7 @@ var stepEmitter = {
 		});
 		return _.extend(emitter, stepEmitter);
 	}
-};
+};	
 
 function compositeSource (list) {
 	var eventEmitter = new events.EventEmitter();
